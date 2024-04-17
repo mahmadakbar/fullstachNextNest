@@ -10,7 +10,17 @@ Things you need to install:
 
 ## Getting Started
 
-First, run the development server:
+First, create a local databese in posstgre called **jwttest**.
+or you can modify [the .env]([http://localhost:8000](https://github.com/mahmadakbar/fullstackNextNest/blob/main/nestjs-rest/.env)) in nest js res to your database configurasion
+for exampe :
+```bash
+DATABASE_URL="postgresql://<username>:<password>@<url>:<port>/<database>?schema=public"
+
+# and the result is
+DATABASE_URL="postgresql://postgres:root@localhost:5432/jwttest?schema=public"
+```
+
+Second, run the development server:
 
 ```bash
 # install dependencies for backend with
@@ -30,4 +40,5 @@ yarn dev
 ```
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result BackEnd.
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result FrontEns.`
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result FrontEns.
