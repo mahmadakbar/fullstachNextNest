@@ -39,4 +39,4 @@ yarn dev
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result BackEnd.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result FrontEns.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result FrontEnd.
