@@ -11,7 +11,7 @@ Things you need to install:
 ## Getting Started
 
 First, create a local databese in posstgre called **jwttest**.
-or you can modify [the .env]([http://localhost:8000](https://github.com/mahmadakbar/fullstackNextNest/blob/main/nestjs-rest/.env)) in nest js res to your database configurasion
+or you can modify [the .env](https://github.com/mahmadakbar/fullstackNextNest/blob/main/nestjs-rest/.env) in nest js res to your database configurasion
 for exampe :
 ```bash
 DATABASE_URL="postgresql://<username>:<password>@<url>:<port>/<database>?schema=public"
