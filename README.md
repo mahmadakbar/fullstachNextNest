@@ -27,15 +27,13 @@ Second, run the development server:
 cd nestjs-rest
 yarn install
 npx prisma migrate dev --name migrate_dbPrisma
+# then run in your local BE with
 yarn start:dev
 
-# and run it with
+# and install dependencies for frontend with
 cd nestjs-fe
 yarn install
-yarn dev
-
-
-# then run in your local with
+# then run in your local FE with
 yarn dev
 ```
 
